@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+}
+header{
+    height: 750px;
+    background-image: url("../images/digital-globe.jpg");
+    color: whitesmoke;
+    height: 75%;    
+}
+
+.navPosition {
+    padding-bottom: 5%;  
+}
+
+@media screen and (max-width: 710px) {
+    .navPosition {
+        padding-bottom: 10%;
+    }
+}
+
+.navItem:hover {
+    background-color: black;
+    color: cyan;
+    padding: 1%;
+    border-radius: 5px;   
+}
+
+.nav-link {
+    color: white;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+@media screen and (max-width: 476px) {
+    .navPosition {
+        font-size: 75%;
+    }
+}
+
+.container {
+    width: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.marquee {
+    padding-left: 3%;
+    padding-bottom: 3%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 175%;
+    margin-top: 3%;   
+}
+
+.know {
+    font-size: 100%;
+    font-weight: bold;   
+}
+
+.photo {
+    text-align: center;
+}
+
+.profilePic {
+    width: 400px;
+    border-style: solid;
+    border-color: cyan;
+    border-width: 2px; 
+}
+
+.about {
+    text-align: center;
+    color: white;
+    padding-bottom: 4%;       
+    background-image: url("../images/dark.jpg");
+    margin-bottom: -20px;
+    background-repeat: no-repeat;
+}
+
+.aboutMe {
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;    
+}
+
+.portfolio {
+    color: whitesmoke;
+    text-align: center;  
+    background-image: url("../images/blocks.jpg");
+    opacity: 50%; 
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.imgMod {
+    width: 350px;
+    height: 250px;
+    padding: 2%;;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    margin: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.project {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: rgb(29, 49, 71);
+    color: whitesmoke;    
+    background-image: url("../images/dark.jpg");
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: rgb(31, 30, 30);
+    border-color: black;
+    padding-bottom:7px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: black;
+    color: cyan;
+}
+
+.footer {
+    text-align: center;    
+    background-color: rgb(12, 12, 12);
+    font-size: 100%;
+    padding: 1%;
+    color: whitesmoke;
+}
+
